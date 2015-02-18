@@ -21,7 +21,8 @@ public class Main {
 		profile.setSurname(JOptionPane.showInputDialog(null, "Enter your surname: "));
 		profiles.add(profile);
 		for(Profile p: profiles){
-			System.out.println(p.getName()+"  "+p.getSurname());
+			System.out.print(p.getName()+"  "+p.getSurname());
+			System.out.println();
 		}
 		System.out.println(profiles.size());
 		serData("profiles",profiles);
